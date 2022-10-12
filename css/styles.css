@@ -77,6 +77,14 @@ h2 {
 
   }
 
+
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .intro{
+      width: 60% ;
+    }
+  }
+
 .middle-site{
     background-image: url("../images/background2.png");
     background-repeat: no-repeat;
