@@ -9,36 +9,64 @@ body {
 
 h1 {
     color: #e8eeee;
-    font-size: 5.625rem;
-    margin: 50px auto 0 auto;
+    font-size: 100px;
     font-family: 'Permanent Marker', cursive;
-    
-    transform: translate(-1%,-290%);
+    padding-top: 10%;
+    margin-block-start: 0px;
+    margin-block-end: 0px
 }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    h1 {
+        font-size: 70px;
+        padding-top: 100px;
+        padding-left: 80px;
+
+
+    }
+  }
 
 h2 {
     color: #11999E;
     font-family: 'Times New Roman', sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
-    margin: auto;
+    font-size: 40px;
 
 }
 
-.top-site {
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-top: 500px;
-}
 
 .person {
     margin-top: 70px;
     width: 15%;
     margin-bottom: 20px;
-    
 
 }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .person{
+      width: 50% ;
+    }
+  }
+
+.top-site {
+        width: 100%;
+        height: 750px;
+        background: url("../images/background.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin: auto;
+
+        
+      }
+
+      @media screen and (min-width: 480px) and (max-width: 768px) {
+          .top-site {
+            background: url("../images/backgroundmobile.jpg") ;
+          }
+        }
+
+    
+
+
 
 .intro {
     width: 35%;
@@ -67,12 +95,20 @@ p {
 .first-page{
     color: #e8eeee;
     font-family: 'Anton', sans-serif;
-    font-size: 2.5rem;
+    font-size: 60px;
     font-weight: normal;
-    margin: 50px auto 0 auto;
-    transform: translate(-2%,-700%);
+    margin-block-start: 0px;
 
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .first-page {
+        font-size: 40px;
+        padding-top: -20px;
+        padding-left: 80px;
+
+
+    }
+  }
 
 .pro {
     text-decoration: underline;
@@ -84,21 +120,26 @@ hr {
 }
 
 .skills {
-    text-align: left;
+    text-align: center;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
 
   }
 
 .binary{
     width: 15%;
-    float: left;
-    margin-left: 700px;
+
+
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .binary{
+      width: 40% ;
+    }
+  }
 
 .my-skills{
-    margin-top: 100px;
-    margin-left: 1000px;
+    margin-top: 30px;
+
 
 }
 
@@ -118,23 +159,49 @@ h3 {
 .logo_P{
     width: 5%;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .logo_P{
+      width: 25% ;
+    }
+  }
 
 
 .logo_Pa{
     width: 10%;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .logo_Pa{
+      width: 30% ;
+    }
+  }
 
 .logo_h{
     width: 8%;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .logo_h{
+      width: 20% ;
+    }
+  }
 
 .logo_c{
     width: 5%;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .logo_c{
+      width: 20% ;
+    }
+  }
 
 .logo_r{
     width: 10%;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .logo_r{
+      width: 30% ;
+    }
+  }
+
 .bottom-container {
     padding: 50px 0 20px;
   }
@@ -176,3 +243,4 @@ h3 {
     margin-bottom: 50px;
 
 }
+
