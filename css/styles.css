@@ -16,7 +16,7 @@ h1 {
     margin-block-end: 0px
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     h1 {
         font-size: 70px;
         padding-top: 100px;
@@ -41,7 +41,7 @@ h2 {
 
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     .person{
       width: 50% ;
     }
@@ -58,7 +58,7 @@ h2 {
         
       }
 
-      @media screen and (min-width: 480px) and (max-width: 768px) {
+      @media screen and (min-width: 360px) and (max-width: 768px) {
           .top-site {
             background: url("../images/backgroundmobile.jpg") ;
           }
@@ -100,10 +100,10 @@ p {
     margin-block-start: 0px;
 
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     .first-page {
         font-size: 40px;
-        padding-top: -20px;
+        padding-top: -10px;
         padding-left: 80px;
 
 
@@ -131,7 +131,7 @@ hr {
 
 
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     .binary{
       width: 40% ;
     }
@@ -159,7 +159,7 @@ h3 {
 .logo_P{
     width: 5%;
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     .logo_P{
       width: 25% ;
     }
@@ -169,7 +169,7 @@ h3 {
 .logo_Pa{
     width: 10%;
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     .logo_Pa{
       width: 30% ;
     }
@@ -178,7 +178,7 @@ h3 {
 .logo_h{
     width: 8%;
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     .logo_h{
       width: 20% ;
     }
@@ -187,7 +187,7 @@ h3 {
 .logo_c{
     width: 5%;
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     .logo_c{
       width: 20% ;
     }
@@ -196,7 +196,7 @@ h3 {
 .logo_r{
     width: 10%;
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     .logo_r{
       width: 30% ;
     }
