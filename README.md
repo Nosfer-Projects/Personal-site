@@ -1,1 +1,1 @@
-# Personal-site using HTML CSS and JS.
+# Personal-page using HTML CSS and JS.
